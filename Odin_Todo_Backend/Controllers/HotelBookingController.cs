@@ -9,8 +9,8 @@ namespace Odin_Todo_Backend.Controllers
     [ApiController]
     public class HotelBookingController : ControllerBase
     {
-        private readonly ApiContext _context;
-        public HotelBookingController(ApiContext context)
+        private readonly TodoDbContext _context;
+        public HotelBookingController(TodoDbContext context)
         {
             _context = context;
         }
